@@ -1,0 +1,7 @@
+curl -d 'field_of_origin[glocode]=SFO2.YPF43&field_of_origin[name]=Hayes%20Valley%20Farm' http://localhost:3000/field_of_origins
+curl -d 'hive[bee_species]=Apis%20cerana&hive[last_harvest]=2011-12-03' http://localhost:3000/field_of_origins/1/hives
+curl -d 'hive[bee_species]=Apis%20mellifera&hive[last_harvest]=2011-12-01' http://localhost:3000/field_of_origins/1/hives
+curl -d 'honey[name]=Mesquite%20Candy%20Clover&honey[volume_in_ml]=3320' http://localhost:3000/hives/1/honeys
+curl -d 'honey[name]=Cinnamon%20Manuka%20&honey[volume_in_ml]=2520' http://localhost:3000/hives/1/honeys
+
+
